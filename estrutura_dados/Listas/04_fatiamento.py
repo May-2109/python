@@ -1,0 +1,8 @@
+lista = ["p", "y", "t", "h", "o", "n"]
+
+print(lista[-4:])   # ["t", "h", "o", "n"]
+print(lista[0:1])   # ["p", "y"]
+print(lista[1:2])    # ["y", "t"]
+print(lista[0:3:2]) # ["p", "t"]
+print(lista[::])   # ["p", "y", "t", "h", "o", "n"]
+print(lista[::-1])    # ["n", "o", "h", "t", "y", "p"]
